@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Button, Container, Row, Col } from 'react-bootstrap'
+import { Row, Col } from 'react-bootstrap'
 
 export default function Main() {
   const [todoList, setTodoList] = useState(JSON.parse(localStorage.getItem('todoList')) || [])
